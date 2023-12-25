@@ -1,0 +1,29 @@
+<svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="26" height="24" fill="#1E1E1E"/>
+<g id="SCR005 [admin] - T&#225;&#187;&#149;ng Quan" clip-path="url(#clip0_35_2)">
+<rect width="1920" height="1080" transform="translate(-1560 -324)" fill="white"/>
+<g id="Table">
+<g id="Table1280">
+<g clip-path="url(#clip1_35_2)">
+<g id="Frame 3">
+<g id="Frame 4">
+<g id="material-symbols:arrow-right">
+<path id="Vector" d="M10.7279 17V7L15.8856 12L10.7279 17Z" fill="#303E65"/>
+<path d="M0.899261 0.5H20.188C22.6733 0.5 24.688 2.51472 24.688 5V19C24.688 21.4853 22.6733 23.5 20.188 23.5H0.899261V0.5Z" stroke="#303E65"/>
+</g>
+</g>
+</g>
+</g>
+<rect x="-1238.5" y="-15.5" width="1279" height="753" rx="9.5" stroke="#F0F0F0"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_35_2">
+<rect width="1920" height="1080" fill="white" transform="translate(-1560 -324)"/>
+</clipPath>
+<clipPath id="clip1_35_2">
+<rect x="-1239" y="-16" width="1280" height="754" rx="10" fill="white"/>
+</clipPath>
+</defs>
+</svg>

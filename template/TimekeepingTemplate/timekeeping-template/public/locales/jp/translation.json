@@ -1,0 +1,9 @@
+{
+  "title": "こにちは",
+  "PleaseEnterInHiragana!":"ひらがなで入力ください",
+  "PleaseEnterInKatagana!":"カタガナで入力ください！",
+  "PleaseEnterInHalf-widthAlphanumericCharacters!":"半角英数で入力ください！",
+  "mistakeFormatMyPassword!":"パスワードのフォマートを間違いました！",
+  "mistakeInTheEmailFormat!":"メールフォマートを間違いました！",
+  "PleaseEnterNumbers!":"数字で入力ください！"
+}

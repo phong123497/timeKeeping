@@ -1,0 +1,9 @@
+{
+  "title": "Hello",
+  "PleaseEnterInHiragana":"Please enter in hiragana!",
+  "PleaseEnterInKatagana!":"Please enter in katagana!",
+  "PleaseEnterInHalf-widthAlphanumericCharacters!":"Please enter in half-width alphanumeric characters!",
+  "mistakeFormatMyPassword!":"forgot to format my password!",
+  "mistakeInTheEmailFormat!":"mistake in the email format!",
+  "PleaseEnterNumbers!":"Please enter numbers!"
+}

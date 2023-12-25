@@ -1,0 +1,117 @@
+:root{
+  --primary:#E74646;
+  --text-primary:#303E65;
+  --text-secondary:#fff;
+  --red-grandient:fill: linear-gradient(181deg, rgba(231, 76, 60, 0.69) 0.53%, #E74646 99.57%);
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif !important; 
+  scroll-behavior: smooth;
+}
+.input-text{
+  color:#303E65 ;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.text-blur{
+  color:rgba(48, 62, 101, 0.50); 
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title-text{
+  color:#303E65; 
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height:20px;
+}
+.title-heading{
+  color:#303E65; 
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height:20px;
+  padding: 0 16px;
+}
+.status-text {
+  color:#303E65; 
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height:20px;
+}
+.link-heading{
+  text-decoration: none ;
+}
+
+.item-heading {
+  display:flex;
+  align-items: center;
+  height: 60px;
+}
+.item-heading:active h2{
+  display:flex;
+  align-items: center;
+  height: 60px;
+  background:#E74C3C; 
+  color: #FFF;
+}
+.item-heading:hover{
+  background-color: rgba(231, 76, 60, 0.2);
+}
+.display-flexbody {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  flex-direction: column; 
+  border-radius: 10px;
+  border:  1px solid #F0F0F0;;
+}
+
+.flexCenter {
+  display: flex;
+  row-gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 0px;
+}
+.wapper{
+  width: 100%;
+}
+.styledtable{
+color: #303E65;
+height: 50px;
+text-align: center;
+font-family: Be Vietnam Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 166.667% */
+}
+.MuiTooltip-arrow{
+   color: #fff !important;
+}
+.MuiTableCell-root{
+padding: 8px 0 !important;
+color: #303E65 !important;
+font-family: Be Vietnam Pro !important;
+font-size: 12px !important;
+height: 40px !important;
+}
+.MuiTableCell-head{
+height: 50px !important;
+font-weight: 700 !important;
+}
+
+
