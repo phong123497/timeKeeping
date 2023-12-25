@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <style>
+        body{
+            font-family:'Roboto', sans-serif;
+            font-size: 12px;
+        }
+
+        .content{
+            background-color: #fff;
+            margin: auto;
+            overflow: auto;
+            padding: 1em 2em;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <div>
+
+        
+        <h3>新しいパスワードが出来ました</h3>
+        <br>
+        <br>
+        <p>◆  メールアドレス :  <span th:text="${email}"></span>     </p>
+        <p>◆  新しいパスワード: <span th:text="${newPass}"></span>    </p>
+
+    </div>
+
+    <p>不明点がございますたら、福岡支社にご連絡をお願いいたします。</p>
+    <p>どうぞよろしくお願いいたします。</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+2023-11-24 09:29:49,667 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-24 09:29:49,704 INFO o.s.b.StartupInfoLogger [main] Starting TimekeepingManagementApplication using Java 17.0.4 on PC-PHONG with PID 18664 (C:\Users\phong\Downloads\rikkeichamcong\TimekeepingManagement\timekeeping-management\target\classes started by phong in C:\Users\phong\Downloads\rikkeichamcong\TimekeepingCommon\timekeeping-common)
+2023-11-24 09:29:49,709 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-11-24 09:29:50,265 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-24 09:29:50,266 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-24 09:29:50,609 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 337 ms. Found 7 JPA repository interfaces.
+2023-11-24 09:29:50,888 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-24 09:29:50,889 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-24 09:29:50,901 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-11-24 09:29:51,157 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4b28a7bf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-24 09:29:51,159 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-24 09:29:51,359 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-11-24 09:29:51,481 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1736 ms
+2023-11-24 09:29:51,597 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-24 09:29:56,313 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-24 09:29:56,383 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-11-24 09:29:56,531 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-24 09:29:56,677 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-11-24 09:29:57,345 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-24 09:29:57,352 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-24 09:29:58,530 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/api-docs/**'] with []
+2023-11-24 09:29:58,530 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/swagger-ui/**'] with []
+2023-11-24 09:29:58,530 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/swagger-ui.html'] with []
+2023-11-24 09:29:58,530 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login'] with []
+2023-11-24 09:29:58,530 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login-facebook'] with []
+2023-11-24 09:29:58,530 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login-google'] with []
+2023-11-24 09:29:58,530 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/authorization'] with []
+2023-11-24 09:29:58,530 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-facebook'] with []
+2023-11-24 09:29:58,531 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-google'] with []
+2023-11-24 09:29:58,531 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-apple'] with []
+2023-11-24 09:29:58,531 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/change-password'] with []
+2023-11-24 09:29:58,531 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/browser-setting'] with []
+2023-11-24 09:29:58,531 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/get-file-types'] with []
+2023-11-24 09:29:58,554 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a52b5f8, org.springframework.security.web.context.SecurityContextPersistenceFilter@61dcf21f, org.springframework.security.web.header.HeaderWriterFilter@6470078d, org.springframework.security.web.authentication.logout.LogoutFilter@693e254e, com.timekeeping.management.filter.JwtAuthenticationFilter@38c6f088, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66c935db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a801d1e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e8d3d43, org.springframework.security.web.session.SessionManagementFilter@6e858790, org.springframework.security.web.access.ExceptionTranslationFilter@e2448b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62497b5d]
+2023-11-24 09:29:59,576 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-24 09:29:59,617 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path '/api/management'
+2023-11-24 09:29:59,627 INFO o.s.b.StartupInfoLogger [main] Started TimekeepingManagementApplication in 10.247 seconds (JVM running for 11.855)
+2023-11-24 09:29:59,855 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(5)-192.168.1.8] Initializing Servlet 'dispatcherServlet'
+2023-11-24 09:29:59,857 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(5)-192.168.1.8] Completed initialization in 1 ms
+2023-11-24 14:00:46,689 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-24 14:00:54,960 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-24 14:00:54,998 INFO o.s.b.StartupInfoLogger [main] Starting TimekeepingManagementApplication using Java 17.0.4 on PC-PHONG with PID 37668 (C:\Users\phong\Downloads\rikkeichamcong\TimekeepingManagement\timekeeping-management\target\classes started by phong in C:\Users\phong\Downloads\rikkeichamcong\TimekeepingCommon\timekeeping-common)
+2023-11-24 14:00:55,002 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-11-24 14:00:55,614 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-24 14:00:55,614 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-24 14:00:56,101 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 480 ms. Found 7 JPA repository interfaces.
+2023-11-24 14:00:56,400 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-24 14:00:56,401 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-24 14:00:56,414 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-11-24 14:00:56,779 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@73e4bb60' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-24 14:00:56,792 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-24 14:00:57,421 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-11-24 14:00:57,784 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2744 ms
+2023-11-24 14:00:58,149 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-24 14:01:09,576 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-24 14:01:09,730 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-11-24 14:01:10,093 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-24 14:01:10,492 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-11-24 14:01:12,065 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-24 14:01:12,086 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-24 14:01:15,794 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/api-docs/**'] with []
+2023-11-24 14:01:15,794 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/swagger-ui/**'] with []
+2023-11-24 14:01:15,795 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/swagger-ui.html'] with []
+2023-11-24 14:01:15,795 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login'] with []
+2023-11-24 14:01:15,795 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login-facebook'] with []
+2023-11-24 14:01:15,796 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login-google'] with []
+2023-11-24 14:01:15,796 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/authorization'] with []
+2023-11-24 14:01:15,796 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-facebook'] with []
+2023-11-24 14:01:15,797 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-google'] with []
+2023-11-24 14:01:15,797 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-apple'] with []
+2023-11-24 14:01:15,797 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/change-password'] with []
+2023-11-24 14:01:15,798 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/browser-setting'] with []
+2023-11-24 14:01:15,798 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/get-file-types'] with []
+2023-11-24 14:01:15,901 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1675adad, org.springframework.security.web.context.SecurityContextPersistenceFilter@579a6e64, org.springframework.security.web.header.HeaderWriterFilter@3ec457ec, org.springframework.security.web.authentication.logout.LogoutFilter@500497e3, com.timekeeping.management.filter.JwtAuthenticationFilter@479f5c35, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5496cd02, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a0ba5f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@384d40a5, org.springframework.security.web.session.SessionManagementFilter@5d7efdb4, org.springframework.security.web.access.ExceptionTranslationFilter@3a2227e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@561f013f]
+2023-11-24 14:01:18,615 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-24 14:01:18,733 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path '/api/management'
+2023-11-24 14:01:18,765 INFO o.s.b.StartupInfoLogger [main] Started TimekeepingManagementApplication in 24.07 seconds (JVM running for 25.1)
+2023-11-24 14:01:19,178 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(2)-192.168.1.8] Initializing Servlet 'dispatcherServlet'
+2023-11-24 14:01:19,179 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(2)-192.168.1.8] Completed initialization in 1 ms

@@ -1,0 +1,1 @@
+2023-11-11 09:23:47,357 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'

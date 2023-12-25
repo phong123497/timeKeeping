@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <style>
+        body{
+            font-family:'Roboto', sans-serif;
+            font-size: 12px;
+        }
+
+        .content{
+            background-color: #fff;
+            margin: auto;
+            overflow: auto;
+            padding: 1em 2em;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <div>
+
+        
+        <h3>従業員の情報</h3>
+        <br>
+        <br>
+
+        <p>◆  ID/ 社員コード : <span th:text="${employeeId}"></span> </p>
+        <p>◆  社員名        : <span th:text="${name}"></span>        </p>
+        <p>◆  メールアドレス :  <span th:text="${email}"></span>     </p>
+        <p>◆  電話番号      :   <span th:text="${phone}"></span>    </p>
+        <p>◆  現在QRコード  :  <span th:text="${qrcode}"></span>    </p>
+        <p>◆  QR イメージ  :<span th:text="${qrcodeImage}"></span>  </p>
+        <img th:src="@{'data:image/jpeg;base64,'+${qrcodeImage}}" th:width="250" th:height="250">
+
+    </div>
+
+    <p>不明点がございますたら、〇〇部までにご連絡をお願いいたします。</p>
+    <p>どうぞよろしくお願いいたします。</p>
+
+</div>
+</body>
+</html>

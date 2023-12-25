@@ -1,0 +1,299 @@
+2023-11-10 14:17:42,347 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-10 14:17:42,383 INFO o.s.b.StartupInfoLogger [main] Starting TimekeepingManagementApplication using Java 17.0.4 on PC-PHONG with PID 19416 (C:\Users\phong\Downloads\rikkeichamcong\TimekeepingManagement\timekeeping-management\target\classes started by phong in C:\Users\phong\Downloads\rikkeichamcong\TimekeepingCommon\timekeeping-common)
+2023-11-10 14:17:42,388 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-11-10 14:17:42,987 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-10 14:17:42,988 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-10 14:17:43,324 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 326 ms. Found 2 JPA repository interfaces.
+2023-11-10 14:17:43,619 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-10 14:17:43,620 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 14:17:43,632 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-11-10 14:17:43,892 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@73bb573d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-10 14:17:43,895 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-10 14:17:44,086 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-11-10 14:17:44,195 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1770 ms
+2023-11-10 14:17:44,438 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-10 14:17:54,632 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-10 14:17:54,789 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-11-10 14:17:55,119 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-10 14:17:55,468 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-11-10 14:17:56,821 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-10 14:17:56,841 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 14:17:59,026 ERROR o.s.b.w.e.t.TomcatStarter [main] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'redissonClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+2023-11-10 14:17:59,097 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2023-11-10 14:17:59,098 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 15:06:24,107 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-10 15:06:24,135 INFO o.s.b.StartupInfoLogger [main] Starting TimekeepingManagementApplication using Java 17.0.4 on PC-PHONG with PID 35868 (C:\Users\phong\Downloads\rikkeichamcong\TimekeepingManagement\timekeeping-management\target\classes started by phong in C:\Users\phong\Downloads\rikkeichamcong\TimekeepingCommon\timekeeping-common)
+2023-11-10 15:06:24,141 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-11-10 15:06:24,699 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-10 15:06:24,699 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-10 15:06:24,973 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 266 ms. Found 2 JPA repository interfaces.
+2023-11-10 15:06:25,218 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-10 15:06:25,218 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 15:06:25,228 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-11-10 15:06:25,465 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7ac058a0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-10 15:06:25,468 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-10 15:06:25,649 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-11-10 15:06:25,767 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1591 ms
+2023-11-10 15:06:25,886 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-10 15:06:36,757 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-10 15:06:36,920 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-11-10 15:06:37,283 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-10 15:06:37,673 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-11-10 15:06:39,171 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-10 15:06:39,191 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 15:06:42,084 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/api-docs/**'] with []
+2023-11-10 15:06:42,084 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/swagger-ui/**'] with []
+2023-11-10 15:06:42,084 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/swagger-ui.html'] with []
+2023-11-10 15:06:42,085 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login'] with []
+2023-11-10 15:06:42,085 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login-facebook'] with []
+2023-11-10 15:06:42,085 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login-google'] with []
+2023-11-10 15:06:42,085 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/authorization'] with []
+2023-11-10 15:06:42,086 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-facebook'] with []
+2023-11-10 15:06:42,086 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-google'] with []
+2023-11-10 15:06:42,086 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-apple'] with []
+2023-11-10 15:06:42,086 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/change-password'] with []
+2023-11-10 15:06:42,087 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/browser-setting'] with []
+2023-11-10 15:06:42,087 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/get-file-types'] with []
+2023-11-10 15:06:42,178 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6767f1c4, org.springframework.security.web.context.SecurityContextPersistenceFilter@67108db4, org.springframework.security.web.header.HeaderWriterFilter@58211c07, org.springframework.security.web.authentication.logout.LogoutFilter@49ce89ec, com.timekeeping.management.filter.JwtAuthenticationFilter@7d65286a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@720d5d1b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@465652a2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@199f2854, org.springframework.security.web.session.SessionManagementFilter@5b9ee280, org.springframework.security.web.access.ExceptionTranslationFilter@2a987a5d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@235babaf]
+2023-11-10 15:06:44,478 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-10 15:06:44,573 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path '/api/management'
+2023-11-10 15:06:44,592 INFO o.s.b.StartupInfoLogger [main] Started TimekeepingManagementApplication in 20.738 seconds (JVM running for 21.399)
+2023-11-10 15:06:45,131 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(2)-192.168.1.8] Initializing Servlet 'dispatcherServlet'
+2023-11-10 15:06:45,132 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(2)-192.168.1.8] Completed initialization in 1 ms
+2023-11-10 15:42:11,351 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 15:42:15,971 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-10 15:42:16,015 INFO o.s.b.StartupInfoLogger [main] Starting TimekeepingManagementApplication using Java 17.0.4 on PC-PHONG with PID 35212 (C:\Users\phong\Downloads\rikkeichamcong\TimekeepingManagement\timekeeping-management\target\classes started by phong in C:\Users\phong\Downloads\rikkeichamcong\TimekeepingCommon\timekeeping-common)
+2023-11-10 15:42:16,020 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-11-10 15:42:17,044 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-10 15:42:17,045 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-10 15:42:18,098 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1032 ms. Found 2 JPA repository interfaces.
+2023-11-10 15:42:18,858 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-10 15:42:18,860 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 15:42:18,886 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-11-10 15:42:19,573 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7708b66a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-10 15:42:19,582 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-10 15:42:20,234 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-11-10 15:42:20,706 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4639 ms
+2023-11-10 15:42:21,141 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-10 15:42:31,427 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-10 15:42:31,539 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-11-10 15:42:31,771 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-10 15:42:32,073 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-11-10 15:42:33,475 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-10 15:42:33,500 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 15:42:36,595 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/api-docs/**'] with []
+2023-11-10 15:42:36,596 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/swagger-ui/**'] with []
+2023-11-10 15:42:36,596 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/swagger-ui.html'] with []
+2023-11-10 15:42:36,596 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login'] with []
+2023-11-10 15:42:36,597 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login-facebook'] with []
+2023-11-10 15:42:36,597 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login-google'] with []
+2023-11-10 15:42:36,598 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/authorization'] with []
+2023-11-10 15:42:36,598 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-facebook'] with []
+2023-11-10 15:42:36,598 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-google'] with []
+2023-11-10 15:42:36,599 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-apple'] with []
+2023-11-10 15:42:36,599 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/change-password'] with []
+2023-11-10 15:42:36,599 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/browser-setting'] with []
+2023-11-10 15:42:36,600 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/get-file-types'] with []
+2023-11-10 15:42:36,690 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d2058b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@3815c525, org.springframework.security.web.header.HeaderWriterFilter@219acda9, org.springframework.security.web.authentication.logout.LogoutFilter@6900954e, com.timekeeping.management.filter.JwtAuthenticationFilter@7b4f1512, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61ee1773, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4aab04cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@787168e8, org.springframework.security.web.session.SessionManagementFilter@5c9cbc69, org.springframework.security.web.access.ExceptionTranslationFilter@347544b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5308c994]
+2023-11-10 15:42:39,433 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-10 15:42:39,571 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path '/api/management'
+2023-11-10 15:42:39,604 INFO o.s.b.StartupInfoLogger [main] Started TimekeepingManagementApplication in 24.013 seconds (JVM running for 26.088)
+2023-11-10 15:42:40,096 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(5)-192.168.1.8] Initializing Servlet 'dispatcherServlet'
+2023-11-10 15:42:40,097 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(5)-192.168.1.8] Completed initialization in 1 ms
+2023-11-10 17:16:17,701 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 17:16:58,950 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-10 17:16:59,000 INFO o.s.b.StartupInfoLogger [main] Starting TimekeepingManagementApplication using Java 17.0.4 on PC-PHONG with PID 34804 (C:\Users\phong\Downloads\rikkeichamcong\TimekeepingManagement\timekeeping-management\target\classes started by phong in C:\Users\phong\Downloads\rikkeichamcong\TimekeepingCommon\timekeeping-common)
+2023-11-10 17:16:59,006 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-11-10 17:16:59,600 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-10 17:16:59,601 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-10 17:16:59,920 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 313 ms. Found 5 JPA repository interfaces.
+2023-11-10 17:17:00,201 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-10 17:17:00,202 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 17:17:00,213 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-11-10 17:17:00,455 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5ba1b62e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-10 17:17:00,457 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-10 17:17:00,617 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-11-10 17:17:00,733 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1683 ms
+2023-11-10 17:17:00,847 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-10 17:17:11,510 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-10 17:17:11,616 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-11-10 17:17:11,870 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-10 17:17:12,180 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-11-10 17:17:13,512 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-10 17:17:13,531 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 17:17:16,247 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workdayDetailRepository' defined in com.timekeeping.common.repository.WorkdayDetailRepository defined in @EnableJpaRepositories declared on PersistenceConfig: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.timekeeping.common.entity.WorkdayDetailEntity com.timekeeping.common.repository.WorkdayDetailRepository.getWorkdayDetailEntityByUserId(java.lang.Integer)! Reason: Failed to create query for method public abstract com.timekeeping.common.entity.WorkdayDetailEntity com.timekeeping.common.repository.WorkdayDetailRepository.getWorkdayDetailEntityByUserId(java.lang.Integer)! No property userId found for type WorkdayDetailEntity!; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.timekeeping.common.entity.WorkdayDetailEntity com.timekeeping.common.repository.WorkdayDetailRepository.getWorkdayDetailEntityByUserId(java.lang.Integer)! No property userId found for type WorkdayDetailEntity!
+2023-11-10 17:17:16,282 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 17:17:16,326 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-11-10 17:17:16,361 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workdayDetailRepository' defined in com.timekeeping.common.repository.WorkdayDetailRepository defined in @EnableJpaRepositories declared on PersistenceConfig: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.timekeeping.common.entity.WorkdayDetailEntity com.timekeeping.common.repository.WorkdayDetailRepository.getWorkdayDetailEntityByUserId(java.lang.Integer)! Reason: Failed to create query for method public abstract com.timekeeping.common.entity.WorkdayDetailEntity com.timekeeping.common.repository.WorkdayDetailRepository.getWorkdayDetailEntityByUserId(java.lang.Integer)! No property userId found for type WorkdayDetailEntity!; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.timekeeping.common.entity.WorkdayDetailEntity com.timekeeping.common.repository.WorkdayDetailRepository.getWorkdayDetailEntityByUserId(java.lang.Integer)! No property userId found for type WorkdayDetailEntity!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:925) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.4.jar:2.5.4]
+	at com.timekeeping.management.TimekeepingManagementApplication.main(TimekeepingManagementApplication.java:14) [classes/:?]
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.timekeeping.common.entity.WorkdayDetailEntity com.timekeeping.common.repository.WorkdayDetailRepository.getWorkdayDetailEntityByUserId(java.lang.Integer)! Reason: Failed to create query for method public abstract com.timekeeping.common.entity.WorkdayDetailEntity com.timekeeping.common.repository.WorkdayDetailRepository.getWorkdayDetailEntityByUserId(java.lang.Integer)! No property userId found for type WorkdayDetailEntity!; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.timekeeping.common.entity.WorkdayDetailEntity com.timekeeping.common.repository.WorkdayDetailRepository.getWorkdayDetailEntityByUserId(java.lang.Integer)! No property userId found for type WorkdayDetailEntity!
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:106) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1061) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:96) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:86) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:86) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:360) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.util.Lazy.get(Lazy.java:114) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 16 more
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract com.timekeeping.common.entity.WorkdayDetailEntity com.timekeeping.common.repository.WorkdayDetailRepository.getWorkdayDetailEntityByUserId(java.lang.Integer)! No property userId found for type WorkdayDetailEntity!
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:107) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:218) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:102) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1061) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:96) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:86) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:86) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:360) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.util.Lazy.get(Lazy.java:114) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 16 more
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property userId found for type WorkdayDetailEntity!
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:437) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:366) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330) ~[?:?]
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:348) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:331) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:249) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:250) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:383) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:384) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:95) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:107) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:218) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:102) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1061) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:96) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:86) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:86) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:360) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.util.Lazy.get(Lazy.java:114) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329) ~[spring-data-commons-2.5.4.jar:2.5.4]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.5.4.jar:2.5.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 16 more
+2023-11-10 17:17:51,003 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2023-11-10 17:17:51,032 INFO o.s.b.StartupInfoLogger [main] Starting TimekeepingManagementApplication using Java 17.0.4 on PC-PHONG with PID 30924 (C:\Users\phong\Downloads\rikkeichamcong\TimekeepingManagement\timekeeping-management\target\classes started by phong in C:\Users\phong\Downloads\rikkeichamcong\TimekeepingCommon\timekeeping-common)
+2023-11-10 17:17:51,038 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-11-10 17:17:51,559 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-10 17:17:51,560 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-10 17:17:51,787 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 218 ms. Found 5 JPA repository interfaces.
+2023-11-10 17:17:52,038 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-10 17:17:52,039 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 17:17:52,048 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-11-10 17:17:52,284 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@101330ad' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-10 17:17:52,287 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-10 17:17:52,450 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2023-11-10 17:17:52,568 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1497 ms
+2023-11-10 17:17:52,682 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-10 17:18:01,805 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-10 17:18:01,910 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-11-10 17:18:02,177 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-10 17:18:02,528 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-11-10 17:18:03,823 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-10 17:18:03,842 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-10 17:18:06,673 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/api-docs/**'] with []
+2023-11-10 17:18:06,673 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/swagger-ui/**'] with []
+2023-11-10 17:18:06,673 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/swagger-ui.html'] with []
+2023-11-10 17:18:06,674 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login'] with []
+2023-11-10 17:18:06,674 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login-facebook'] with []
+2023-11-10 17:18:06,674 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/account-managers/login-google'] with []
+2023-11-10 17:18:06,675 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/authorization'] with []
+2023-11-10 17:18:06,675 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-facebook'] with []
+2023-11-10 17:18:06,675 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-google'] with []
+2023-11-10 17:18:06,675 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/login-apple'] with []
+2023-11-10 17:18:06,676 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/users/change-password'] with []
+2023-11-10 17:18:06,676 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/browser-setting'] with []
+2023-11-10 17:18:06,676 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure Ant [pattern='/get-file-types'] with []
+2023-11-10 17:18:06,768 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d69bdcc, org.springframework.security.web.context.SecurityContextPersistenceFilter@268467ab, org.springframework.security.web.header.HeaderWriterFilter@6887e1d1, org.springframework.security.web.authentication.logout.LogoutFilter@7ece1800, com.timekeeping.management.filter.JwtAuthenticationFilter@43898d09, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ca57c02, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d57feda, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2638500, org.springframework.security.web.session.SessionManagementFilter@58a887fb, org.springframework.security.web.access.ExceptionTranslationFilter@455e8356, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d2058b1]
+2023-11-10 17:18:09,400 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-10 17:18:09,502 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path '/api/management'
+2023-11-10 17:18:09,533 INFO o.s.b.StartupInfoLogger [main] Started TimekeepingManagementApplication in 18.757 seconds (JVM running for 19.415)
+2023-11-10 17:18:10,010 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(3)-192.168.1.8] Initializing Servlet 'dispatcherServlet'
+2023-11-10 17:18:10,011 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(3)-192.168.1.8] Completed initialization in 1 ms
